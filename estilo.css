@@ -1,0 +1,24 @@
+:root{
+    --titulo-principal:#ff0000;
+    --cor-do-texto:#008000;
+    --cor-de-fundo:#000000;
+    --cor-do-botao:#FFCBDB;
+}
+body{
+    background-color:var(--cor-de-fundo);
+}
+h1{
+    color:var(--titulo-principal);
+}
+*{
+ margin: 0;
+ padding:0;
+}
+.principal{
+    background-image:url(fundopng);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    height: 100vh;
+}
